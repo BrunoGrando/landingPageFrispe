@@ -208,13 +208,14 @@ body a:hover{
         margin-top: 15px;
     }
 }
+
 /* CAROUSEL OUR-SPACE */
 .slider{
     width: 100vw;
 }
 .slide-items{
     scrollbar-width: thin;
-    scrollbar-color: blue orange;
+    scrollbar-color: orange white;
     display:flex;
 
     overflow-x: auto;
@@ -359,7 +360,7 @@ body a:hover{
     direction: rtl;
     max-height:  400px;
     scrollbar-width: thin;
-    scrollbar-color: blue orange;
+    scrollbar-color: orange white;
 }
 .options-facilities::-webkit-scrollbar {
     width: 12px;
@@ -391,10 +392,10 @@ body a:hover{
 .banner-our-facilities .banner-facilities {
     padding: 0;
 }
-;
+
 
 .banner-our-facilities .banner-facilities img{
-    width: 100%;
+    width:100%;
 }
 @media screen and (max-width: 1200px){
     .banner-our-facilities .options-facilities button{
